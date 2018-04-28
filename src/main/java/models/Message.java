@@ -5,6 +5,7 @@ import java.util.Date;
 public class Message {
     private int mId;
     private int mUserId;
+    private int mGroupId;
     private String mMessage;
     private Date mDate;
 
@@ -29,6 +30,10 @@ public class Message {
 
     public void setUserId(int userId) {
         this.mUserId = userId;
+    }
+
+    public int getGroupId() {
+        return mGroupId;
     }
 
     public String getMessage() {

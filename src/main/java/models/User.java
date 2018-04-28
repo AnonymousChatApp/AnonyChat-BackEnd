@@ -2,23 +2,23 @@ package models;
 
 public class User {
 
-    private int id;
-    private String nickname;
+    private int mId;
+    private String mNickname;
 
     public User(int id, String nickname) {
-        this.id = id;
-        this.nickname = nickname;
+        this.mId = id;
+        this.mNickname = nickname;
     }
 
     public int getId() {
-        return id;
+        return mId;
     }
 
     public String getNickname() {
-        return nickname;
+        return mNickname;
     }
 
     public void setNickname(String nickname) {
-        this.nickname = nickname;
+        this.mNickname = nickname;
     }
 }

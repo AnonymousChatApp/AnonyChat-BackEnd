@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,20 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+            <state relative-caret-position="255">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
                 <element signature="e#209#210#0" expanded="true" />
                 <element signature="e#234#235#0" expanded="true" />
@@ -50,11 +52,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ChatService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/ChatService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="791">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="476">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#351#352#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
@@ -64,6 +78,8 @@
                 <element signature="e#496#497#0" expanded="true" />
                 <element signature="e#537#538#0" expanded="true" />
                 <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
                 <element signature="e#607#608#0" expanded="true" />
                 <element signature="e#637#638#0" expanded="true" />
                 <element signature="e#683#684#0" expanded="true" />
@@ -290,9 +306,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4574849821509" />
+        <entry key="$PROJECT_DIR$" value="4574852710197" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="232273941" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="754533518" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3570703033" />
       </map>
     </option>
@@ -478,11 +494,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/Group.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/ChatService.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -637,6 +656,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -679,10 +699,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+        <state relative-caret-position="476">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -707,35 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
@@ -744,6 +759,23 @@
             <element signature="e#412#413#0" expanded="true" />
             <element signature="e#452#453#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/ChatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>
