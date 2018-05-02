@@ -1,25 +1,35 @@
-package rest;
 
-import models.Group;
-import models.Message;
-import models.User;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.ArrayList;
-import java.util.List;
+
+import managers.DataManager;
+import models.Group;
+import models.Message;
+import models.User;
+
 
 @Path("/chat")
 public class ChatService {
+	
+	  @GET
+	  @Path("/get")
+	    @Produces(MediaType.TEXT_PLAIN)
+	    public String getIt() {
+	        return "Got it!";
+	    }
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public Response submitUserName(String username) {
-        //set username for new User
+        DataManager.getInstance().createNewUser(new User(username));
 
         return Response.status(200).build();
     }
@@ -55,6 +65,7 @@ public class ChatService {
 
         return Response.status(200).build();
     }
+
 
 
 }
